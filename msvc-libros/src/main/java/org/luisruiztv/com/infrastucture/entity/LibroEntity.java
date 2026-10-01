@@ -1,4 +1,4 @@
-package org.luisruiztv.com.models;
+package org.luisruiztv.com.infrastucture.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -10,7 +10,7 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-public class Libro {
+public class LibroEntity {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
