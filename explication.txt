@@ -8,3 +8,12 @@ Repository Port
 
 MySQL Repository JPA
 
+
+
+------
+Antes:
+Controller --> Service ---> CRUD Repository ----> MySQL
+-----
+Despues (Hexagonal)
+Controller --> Application Service ---> Port ---> Adapter ---> CRUD Repository ---> MySQL
+-----
